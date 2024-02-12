@@ -1,0 +1,30 @@
+{
+  "name": "node-db",
+  "version": "1.0.0",
+  "description": "working with postgre sql db in node.js",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index",
+    "dev": "nodemon index",
+    "lint": "eslint . --fix"
+  },
+  "type": "module",
+  "keywords": [
+    "node",
+    "app"
+  ],
+  "author": "Bisquitman <lynx8309@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.4.2",
+    "knex": "^3.1.0",
+    "pg": "^8.11.3"
+  },
+  "devDependencies": {
+    "eslint": "^8.49.0",
+    "eslint-config-prettier": "^9.0.0",
+    "eslint-plugin-prettier": "^5.0.0",
+    "nodemon": "^3.0.1",
+    "prettier": "3.0.1"
+  }
+}
